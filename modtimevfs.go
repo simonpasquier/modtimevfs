@@ -13,6 +13,12 @@
 
 // Package modtimevfs implements a virtual file system that returns a fixed
 // modification time for all files and directories.
+//
+// It is useful in combination with https://github.com/shurcooL/vfsgen.
+//
+//    fs = modtimevfs.New(Assets, time.Unix(1, 0))
+//    err := vfsgen.Generate(fs)
+//
 package modtimevfs
 
 import (

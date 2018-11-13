@@ -17,4 +17,4 @@ if err != nil {
 
 ## License
 
-Apache License 2.0, see [LICENSE](https://github.com/prometheus/prometheus/blob/master/LICENSE).
+Apache License 2.0, see [LICENSE](https://github.com/simonpasquier/modtimevfs/blob/master/LICENSE).
