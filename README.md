@@ -1,4 +1,4 @@
-[![GoDoc](https://godoc.org/github.com/simonpasquier/modtimevfs?status.svg)](https://godoc.org/github.com/simonpasquier/modtimvfs)
+[![GoDoc](https://godoc.org/github.com/simonpasquier/modtimevfs?status.svg)](https://godoc.org/github.com/simonpasquier/modtimevfs)
 [![CircleCI](https://circleci.com/gh/simonpasquier/modtimevfs.svg?style=svg)](https://circleci.com/gh/simonpasquier/modtimevfs)
 
 `modtimevfs` provides an implementation of `http.FileSystem` that wraps another `FileSystem` and returns the same (fixed) modification time for all files in the collection. 
